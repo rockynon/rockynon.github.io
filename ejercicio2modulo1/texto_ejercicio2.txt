@@ -1,0 +1,47 @@
+Ejercicio Lista / Imagen
+
+Google presenta un buscador de empleos en Argentina
+
+Google for Jobs permite chequear ofertas laborales de distintas plataformas desde el buscador.
+
+Google presentó este martes en Argentina su plataforma Google for Jobs. Se trata de una función incorporada al buscador que permite explorar las ofertas de trabajo publicadas en la Web para encontrar las más adecuadas utilizando distintos filtros.
+
+Según una encuesta realizada por la firma de Mountain View, el 45% de los internautas mayores de 18 años han utilizado Internet para buscar trabajo y 1 de cada 3 se dirige a buscadores para facilitar este proceso.
+
+Por otro lado, el 30% de los usuarios que busca trabajo en internet describe el proceso como “complicado”; Google, atento a estos números, trabajo especialmente para que el servicio sea fácilmente accesible y brinde información detallada sobre cada trabajo. El resultado de búsqueda incluye detalles acerca de la publicación, como por ejemplo, el título del puesto, la ubicación o si es una posición de tiempo completo, media jornada o una pasantía. Además, se pueden programar alertas para recibir una notificación por mail cada vez que se publique una nueva posición que coincida con la búsqueda.
+
+Para este lanzamiento, Google trabajó con socios del ecosistema de empleos para garantizar que el contenido sea publicado de manera precisa, tan pronto como esté disponible y dirigido exactamente a los usuarios que lo encontrarán más relevante.
+
+En Argentina, algunos de los partners con los que trabajaron son:
+
+Empleos Clarin
+Trovit Empleos 
+Trabajemos Argentina
+Workana
+Lovemondays 
+LinkedIn
+Glassdoor
+
+
+El servicio de empleos de Google está disponible tanto en computadoras como en dispositivos móviles, al buscar términos como “trabajos cerca de mí”, “trabajos para docentes”o consultas similares relacionadas a búsquedas laborales. Para muchos anuncios también se mostrarán comentarios y calificaciones del empleador de sitios confiables, junto con la descripción del trabajo, y si un usuario inició sesión en Google, incluso puede ver cuánto tiempo le llevaría llegar al trabajo desde su casa (siempre y cuando haya compartido esta información y el anuncio tenga una dirección física asociada).
+
+Cómo crear una publicación de empleo
+
+Asegúrate de que el robot de Google pueda rastrear tus páginas web de publicación de empleos (que no estén protegidas por un archivo robots.txt o una metaetiqueta "robots").
+
+Asegúrate de que la configuración de carga de tu host sea compatible con los rastreos frecuentes.
+
+Agrega datos estructurados para la publicación de empleos a tu página web
+
+Si tienes varias copias de la misma publicación de empleo en tu sitio alojadas con distintas URL, usa URL canónicas en cada copia de la página.
+
+Prueba tus datos estructurados y obtén una vista previa de ellos.
+
+Envía mapas del sitio para mantener a Google informado. Sigue los lineamientos correspondientes.
+
+Si tienes una tasa de cambio alta, es decir, tienes más de 100,000 publicaciones de empleos o más de 10,000 cambios diarios, comunícate con nosotros
+
+
+Fuente: Google Jobs
+
+URL: https://developers.google.com/search/docs/data-types/job-posting

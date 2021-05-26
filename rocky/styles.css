@@ -1,0 +1,18 @@
+.red {
+    color: red;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+
+.green {
+    color: #00FF00;
+}
+
+div.list {
+    box-sizing: content-box;
+    width: 200px;
+    height: 200px;
+}
