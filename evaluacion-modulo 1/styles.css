@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header, section, footer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #c75b39;
+    height: 100px;
+
+}
+
+#logo {
+    width: 300px;
+    height: 100px;
+    background-color: #ffbb93;
+    float: left;
+
+}
+
+section#main {
+    background-color:#ff8a65;
+}
+
+#menu {
+    width: 400px;
+    height: 100px;
+    background-color: #8eacbb;
+    float: right;
+}
+
+
+
+#banner {
+    width: 100%;
+    height:450px ;
+    background-color: #fff8e1;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+#texto_bienvenida {
+    height: 200px;
+    width: 350px;
+    background-color: #e2f1f8;
+    float: left;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+#cajas {
+    height: 400px;
+}
+
+#cajas h2 {
+    height: 100px;
+    background-color: #c75b39;
+}
+
+#cajas .caja {
+    width: 320px;
+    height: 300px;
+    float: left;
+}
+
+#cajas .par {
+    background-color:#ffbb93;
+}
+
+#cajas .impar {
+    background-color:#8eacbb;
+}
+
+#donaciones {
+    height: 300px;
+    background-color: #fff8e1;
+    clear: left;
+
+}
+
+#texto_donaciones {
+    height: 150px;
+    width: 350px;
+    background-color: #e2f1f8;
+    float: right;
+    margin-top: 70px;
+    margin-right: 50px;
+}
+
+footer {
+    background-color:#34515e ;
+    height: 150px;
+
+}
+
+#contacto {
+    height: 150px;
+    width: 320px;
+    background-color: #ff8a65;
+    float:left
+}
+
+#redes {
+    height: 150px;
+    width: 300px;
+    background-color: #ff8a65;
+    float: right;
+
+}
