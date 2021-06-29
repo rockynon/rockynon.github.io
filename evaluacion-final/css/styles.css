@@ -1,5 +1,13 @@
 @import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css";
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src:url('Roboto-Medium.ttf') format("truetype");
+    src:url('Roboto-Medium.woff') format("truetype");
+    src:url('Roboto-Medium.svg') format("truetype")
+    
+}
+
 
 * {
     margin: 0px;
@@ -7,7 +15,7 @@
 }
 
 header, section, footer {
-    font-family: 'Lato', sans-serif;
+   font-family: 'Roboto', sans-serif;
     width: 960px;
     margin-left: auto;
     margin-right: auto;
