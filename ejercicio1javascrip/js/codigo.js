@@ -1,3 +1,0 @@
-prompt("Escriba su nombre:","");
-
-
