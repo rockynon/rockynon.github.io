@@ -1,3 +1,2 @@
-prompt("Escriba su nombre:","");
-
+var nombre = prompt("Escriba su nombre:","");
 
