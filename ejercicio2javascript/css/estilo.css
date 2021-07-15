@@ -1,0 +1,23 @@
+body{
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 10px 20px;
+	background-color: whitesmoke;
+}
+
+h1 {
+	color: #FFFFFF;
+	background-color: #ffbd33;
+	padding: 10px;
+	border-radius:0 20px;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	color: tomato;
+}
+
+ul li {
+	color:teal;
+}
