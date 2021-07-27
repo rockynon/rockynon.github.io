@@ -1,7 +1,7 @@
 var nombre = prompt ('Cuál es tu nombre? :')
-alert ('Hola! Bienvenid@ : ' + nombre + ', ingresa los números para ver el resultado de las diferenes operaciones matemáticas ')
-var num1 = prompt ('Primer número: ');
-var num2 = prompt ('Segundo número: ');
+alert ('Hola! Bienvenid@ : ' + nombre + ', ingresa los números para ver el resultado de las diferentes operaciones matemáticas. ')
+var num1 = Number (prompt ('Primer número: ' ));
+var num2 = Number (prompt ('Segundo número: '));
 var sum =  num1 + num2;
 var resta = num1 - num2;
 var multip = num1 * num2;
