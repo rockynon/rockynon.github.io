@@ -1,0 +1,592 @@
+@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css";
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src:url('Roboto-Medium.ttf') format("truetype");
+    src:url('Roboto-Medium.woff') format("truetype");
+    src:url('Roboto-Medium.svg') format("truetype")
+    
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header, section, footer {
+   font-family: 'Roboto', sans-serif;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+}
+
+section#main {
+    background-color: whitesmoke;
+}
+
+#logo img {
+    height: 80px;
+    margin: 5px;
+}
+
+nav#menu {
+    width: 650px;
+    height: 80px;
+}
+
+nav#menu ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav#menu ul li {
+    display: inline-block;
+    width: 150px;
+    background-color: transparent;
+    text-align: center;
+}
+
+nav#menu ul li a {
+    margin-bottom: 5px;
+    text-decoration: none;
+    line-height: 40px;
+    color: black;
+}
+
+nav#menu ul li a:hover {
+    color: #666666;
+}
+
+#banner {
+    width: 100%;
+    height: 450px;
+    background-image: url(../img/perroygatoencasa.png);
+    background-color: #dad8d1;
+}
+
+#bienvenida {
+    width: 350px;
+    padding-top: 200px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bienvenida h2 {
+    color: #f7882f;
+}
+
+#bienvenida ul li {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    margin: 5px;
+}
+
+#bienvenida ul li a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #34515e17;
+    color: black;
+    border-radius: 7px;
+    width: 100px;
+    padding: 10px;
+}
+
+#bienvenida ul li a:hover {
+    background-color: #8eacbb;   
+}
+
+#cajas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #6b7a8f;
+}
+
+#cajas h2 {
+    margin: 20px;
+}
+
+#cajas ul {
+    display: flex;
+    margin: 20px;
+}
+
+#cajas ul li {
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+#cajas ul li p {
+    margin-top: 10px;
+}
+
+#cajas ul li img {
+    height: 96px;
+}
+
+#donaciones {
+    height: 350px;
+    background-image: url(../img/perrodonaciones.jpg);
+    background-repeat: no-repeat;
+    clear: left;
+}
+
+#texto_donaciones {
+    height: 150px;
+    width: 350px;
+    float: right;
+    margin-top: 70px;
+    margin-right: 50px;
+    color: whitesmoke;
+}
+
+#texto_donaciones .boton {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #f7882f;
+    color: white;
+    border-radius: 7px;
+    width: 100px;
+    text-align: center;
+    margin: 15px 30%;
+}
+
+#texto_donaciones .boton:hover {
+    background-color: #ffb95f;
+}
+
+
+footer {
+    background-color: #dad8d1;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#copyright {
+    display: flex;
+    align-content: stretch;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: small;
+    margin-left: 10px;
+}
+
+#redes {
+    height: 130px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#redes p {
+    font-size: small;
+    margin: 10px;
+}
+
+#redes ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.color-p, .color-p a:visited {
+    background-color: #dad8d1;
+    color: #000000;
+}
+
+.color-p a:hover {
+    color: #666666;
+}
+
+body#page-contacto h2 {
+    color: #f7882f;
+    margin: 30px;
+    text-align: center;
+}
+
+body#page-contacto p {
+    color: #6b7a8f;
+    font-size: 11.5pt;
+    text-align: center;
+}
+
+body#page-contacto section#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body#page-contacto section#main #formulario {
+    display: flex;
+    margin: 30px;
+}
+
+body#page-contacto section#main #formulario form {
+    min-width: 450px;
+}
+
+body#page-contacto section#main #formulario label, input, textarea {
+    display: block;
+    color: #6b7a8f;
+    width: 80%;
+    font-size: 11pt;
+    padding: 5px;
+    border: none;
+}
+
+body#page-contacto section#main #formulario textarea {
+    width: 80%;
+}
+
+body#page-contacto .boton {
+    background-color: #f7882f;
+    color: white;
+    border-radius: 7px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+body#page-contacto .boton:hover {
+    background-color: #ffb95f;
+}
+
+body#page-contacto figure {
+    color: #6b7a8f;
+    font-size: 11.5pt;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body#page-contacto figure img {
+    padding-top: 15px;
+}
+
+body#page-contacto div#boxgracias {
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+body#page-contacto div#boxgracias img {
+    width: 120px;
+}
+
+
+
+/*
+ Page Adoptar
+*/
+
+body#page-adoptar h2 {
+    color: #f7882f;
+    text-align: center;
+    padding: 20px;
+}
+
+body#page-adoptar section#main p {
+    color: #6b7a8f;
+    margin: 20px;
+    text-align: center;
+}
+
+body#page-adoptar ul.lista {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+}
+
+body#page-adoptar ul.lista li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+body#page-adoptar .lista article {
+    background-color: white;
+    box-shadow: 2px 3px gainsboro;
+}
+
+body#page-adoptar .lista article .pie {
+    margin-top: 5px;
+}
+
+body#page-adoptar .lista article .pie li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #6b7a8f;
+    font-size: 11.5pt;
+    padding-top: 5px;
+}
+
+body#page-adoptar .lista article .action {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body#page-adoptar .lista article .action a {
+    color: #f7882f;
+    font-size: larger;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+    header, section, footer {
+        width: 580px;
+        height: auto;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    nav#menu {
+        width: 580px;
+        height: 60px;
+    }
+    nav#menu ul li {
+        width: 135px;
+    }
+    #banner {
+        background-image: url(../img/perroygatoencasa\ media.png);
+    }
+    #bienvenida {
+        width: 50px;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #bienvenida ul li {
+        display: inline-block;
+        width: 120px;
+        text-align: center;
+        margin: 5px;
+    }
+    #cajas ul {
+        display: flex;
+        flex-direction: column;
+    }
+    #cajas ul li {
+        display: flex;
+        margin-bottom: 10px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    #cajas ul li p {
+        margin-left: 10px;
+    }
+    #cajas ul li img {
+        height: 64px;
+    }
+    #donaciones {
+        height: 350px;
+        background-image: url(../img/perrodonaciones.jpg);
+        background-repeat: no-repeat;
+        clear: left;
+        background-position-x: -150px;
+    }
+    #texto_donaciones {
+        width: 250px;
+    }
+    body#page-contacto h2 {
+        margin: 20px;
+    }
+    body#page-contacto section#main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    body#page-contacto section#main #formulario {
+        display: flex;
+        margin: 1px 30px;
+        flex-direction: column-reverse;
+    }
+    body#page-contacto .boton {
+        margin-bottom: 10px;
+    }
+
+    body#page-contacto figure {
+        text-align: center;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    body#page-contacto figure img {
+        padding-top: 15px;
+        width: 22%;
+    }
+    body#page-contacto figure p {
+        margin-left: 10px;
+        text-align: left;
+    }
+    body#page-adoptar ul.lista li {
+        padding: 10px;
+        list-style-type: none;
+    }
+    body#page-adoptar .lista article img {
+        width: 260px;
+    }
+}
+
+@media all and (max-width:599px) {
+    header, section, footer {
+        width: 100%;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #logo img {
+        height: 50px;
+    }
+    nav#menu {
+        width: 100%;
+        height: auto;
+    }
+    nav#menu ul {
+        list-style-type: none;
+        padding: 5px;
+        display: flex;
+    }
+    nav#menu ul li {
+        width: 100%;
+        margin: 6px;
+    }
+    #banner {
+        width: 100%;
+        height: 150px;
+        background: none;
+    }
+    #bienvenida {
+        width: auto;
+        padding-top: 40px;
+        padding-left: 0px;
+        height: 120px;
+    }
+    #cajas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #6b7a8f;
+    }
+    #cajas h2 {
+        margin: 20px;
+    }
+    #cajas ul {
+        display: flex;
+        margin: 10px;
+        flex-direction: column;
+    }
+    #cajas ul li {
+        display: flex;
+        justify-content: center;
+        align-content: stretch;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    #cajas ul li p {
+        margin-top: 15px;
+    }
+    #cajas ul li img {
+        height: 60px;
+    }
+    #donaciones {
+        background-position-x: -150px;
+    }
+    #texto_donaciones {
+        width: auto;
+        text-align: center;
+        float: none;
+        padding-top: 200px;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    #copyright {
+        margin-top: 10px;
+    }
+    #redes {
+        height: 130px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #redes p {
+        font-size: small;
+        margin: 10px;
+    }
+    #redes ul li {
+        display: inline-block;
+
+    }
+    body#page-contacto h2 {
+        margin: 20px;
+    }
+    body#page-contacto section#main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    body#page-contacto section#main #formulario {
+        display: flex;
+        margin: 20px;
+        flex-direction: column-reverse;
+    }
+    body#page-contacto section#main #formulario form {
+        min-width: 25px;
+        margin-top: 20px;
+    }
+
+    body#page-contacto figure img {
+        padding-top: 15px;
+        width: 120px;
+    }
+    
+    body#page-adoptar ul.lista li {
+        padding: 10px;
+        list-style-type: none;
+    }
+    
+    body#page-adoptar .lista article img {
+        width: 260px;
+    }
+}
