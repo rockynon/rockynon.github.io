@@ -8,7 +8,6 @@
     
 }
 
-
 * {
     margin: 0px;
     padding: 0px;
@@ -327,6 +326,10 @@ body#page-adoptar ul.lista {
 body#page-adoptar ul.lista li {
     padding: 10px;
     list-style-type: none;
+}
+
+body#page-adoptar ul.lista li.hide {
+    display: none;
 }
 
 body#page-adoptar .lista article {
