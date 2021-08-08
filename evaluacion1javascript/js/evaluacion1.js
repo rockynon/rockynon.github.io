@@ -13,7 +13,7 @@ function OnSubmitContacto(event) {
 function ver(filtro) {
     var mascotas = document.querySelectorAll ("#main > ul.lista > li")
     for (let n = 0; n < mascotas.length; n++) {
-        const mascota = mascotas[n]; // 1 <li class="dog all">
+        const mascota = mascotas[n]; 
         if (mascota.classList.contains(filtro)) {
             mascota.classList.remove("hide")
         } else {

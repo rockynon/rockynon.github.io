@@ -91,17 +91,17 @@ nav#menu ul li a:hover {
     margin: 5px;
 }
 
-#bienvenida ul li a {
+#bienvenida ul li a,  body#page-adoptar section#main p a {
     display: inline-block;
     text-decoration: none;
-    background-color: #34515e17;
+    background-color:  #34515e17;
     color: black;
     border-radius: 7px;
     width: 100px;
     padding: 10px;
 }
 
-#bienvenida ul li a:hover {
+#bienvenida ul li a:hover  {
     background-color: #8eacbb;   
 }
 
@@ -156,7 +156,7 @@ nav#menu ul li a:hover {
 
 #texto_donaciones .boton {
     display: block;
-    text-decoration: none;
+    text-decoration: none; 
     padding: 10px;
     background-color: #f7882f;
     color: white;
@@ -313,6 +313,14 @@ body#page-adoptar section#main p {
     color: #6b7a8f;
     margin: 20px;
     text-align: center;
+}
+body#page-adoptar section#main p a {
+    background-color:#ffb95f;
+    color:#6b7a8f;
+}
+
+body#page-adoptar section#main p a:hover {
+    background-color: #dad8d1;
 }
 
 body#page-adoptar ul.lista {
