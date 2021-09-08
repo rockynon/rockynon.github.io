@@ -1,0 +1,237 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Huellitas Adopciones</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script> 
+    <script type="text/javascript" src="js/evaluacion1.js"></script> 
+</head>
+
+<body id="page-adoptar">
+
+    <header class="color-p">
+        <div id="logo">
+            <a href="index.html"><img src="img/logo-huellitasadopciones.png" alt="logo-huellitasadopciones"></a>
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Adoptar</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="main">
+        <h2>Adoptar</h2>
+        <p>Siempre es mucho mejor que comprarlo.
+            En Huellitas puedes adoptar tu próximo mejor amigo.</p>
+            <p>
+                Ver:
+                <a href="#>" onclick="return ver('all')">Todos</a>
+                <a href="#>" onclick="return ver('dog')">Perros</a>
+                <a href="#>" onclick="return ver('cat')">Gatos</a>
+            </p>
+        <div id="image-viewer">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="full-image">
+        </div>
+        <ul class="lista">
+            <li class="dog all">
+                <article>
+                    <img src="img/perro1.jpg" alt="perro1" data-full-image="img/perro1.jpg"/>
+                    <div class="pie">
+                        <ul class="caracteristicas">
+                            <li>Nombre: Capitán.</li>
+                            <li>Sexo: Macho.</li>
+                            <li>Edad: 3 meses.</li>
+                        </ul>
+                        <ul class="action">
+                            <li>
+                                <a href="#" title="Like">
+                                    <i class="fa fa-heart fa-solid"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Compartir">
+                                    <i class="fas fa-share-alt"></i>
+                                </a>
+                            </li>
+                            
+                            <li><a href="contacto.html"title="Adoptar">
+                                <i class="fas fa-comment"></i>
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
+                </article>
+            </li>
+
+            <li class="cat all">
+                <article>
+                    <img src="img/gato1.jpg" alt="gato1" data-full-image="img/gato1-big.jpg"/>
+                    <div class="pie">
+                        <ul class="caracteristicas">
+                            <li>Nombre: Lolita.</li>
+                            <li>Sexo: Hembra.</li>
+                            <li>Edad: 3 meses.</li>
+                        </ul>
+                        <ul class="action">
+                            <li><a href="#" title="Like">
+                                <i class="fa fa-heart fa-solid"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Compartir">
+                                <i class="fas fa-share-alt"></i>
+                            </a>
+                        </li>
+                        
+                        <li><a href="contacto.html"title="Adoptar">
+                            <i class="fas fa-comment"></i>
+                        </a></li>
+                        </ul>
+                    </div>
+                </article>
+            </li>
+            <li class="dog all">
+                <article>
+                    <img src="img/perro2.jpg" alt="perro2" data-full-image="img/perro2-big.jpg" />
+                    <div class="pie">
+                        <ul class="caracteristicas">
+                            <li>Nombre: Muñeco.</li>
+                            <li>Sexo: Macho.</li>
+                            <li>Edad: 5 meses.</li>
+                        </ul>
+                        <ul class="action">
+                            <li><a href="#" title="Like">
+                                <i class="fa fa-heart fa-solid"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Compartir">
+                                <i class="fas fa-share-alt"></i>
+                            </a>
+                        </li>
+                        
+                        <li><a href="contacto.html"title="Adoptar">
+                            <i class="fas fa-comment"></i>
+                        </a>
+                    </li>
+                        </ul>
+                    </div>
+                </article>
+            </li>
+            <li class="cat all">
+                <article>
+                    <img src="img/gato2.jpg" alt="gato2" data-full-image="img/gato2-big.jpg" />
+                    <div class="pie">
+                        <ul class="caracteristicas">
+                            <li>Nombre: Gaspar.</li>
+                            <li>Sexo: Macho.</li>
+                            <li>Edad: 1 año..</li>
+                        </ul>
+                        <ul class="action">
+                            <li><a href="#" title="Like">
+                                <i class="fa fa-heart fa-solid"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Compartir">
+                                <i class="fas fa-share-alt"></i>
+                            </a>
+                        </li>
+                        
+                        <li><a href="contacto.html"title="Adoptar">
+                            <i class="fas fa-comment"></i>
+                        </a>
+                    </li>
+                        </ul>
+                    </div>
+                </article>
+            </li>
+            <li class="dog all">
+                <article>
+                    <img src="img/perro3.jpg" alt="perro3" data-full-image="img/perro3-big.jpg" />
+                    <div class="pie">
+                        <ul class="caracteristicas">
+                            <li>Nombre: Yiya.</li>
+                            <li>Sexo: Macho.</li>
+                            <li>Edad: 2 años.</li>
+                        </ul>
+                        <ul class="action">
+                            <li><a href="#" title="Like">
+                                <i class="fa fa-heart fa-solid"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Compartir">
+                                <i class="fas fa-share-alt"></i>
+                            </a>
+                        </li>
+                        
+                        <li><a href="contacto.html"title="Adoptar">
+                            <i class="fas fa-comment"></i>
+                        </a>
+                    </li>
+                        </ul>
+                    </div>
+                </article>
+            </li>
+            <li class="cat all">
+                <article>
+                    <img src="img/gato5.jpg" alt="gato5" data-full-image="img/gato5-big.jpg" />
+                    <div class="pie">
+                        <ul class="caracteristicas">
+                            <li>Nombre: Lula, Jack y Maya.</li>
+                            <li>Sexo: 1 macho y 2 hembras.</li>
+                            <li>Edad: 2 meses.</li>
+                        </ul>
+                        <ul class="action">
+                            <li><a href="#" title="Like">
+                                <i class="fa fa-heart fa-solid"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Compartir">
+                                <i class="fas fa-share-alt"></i>
+                            </a>
+                        </li>
+                        
+                        <li><a href="contacto.html"title="Adoptar"> 
+                            <i class="fas fa-comment"></i>
+                        </a>
+                    </li>
+                        </ul>
+                    </div>
+                </article>
+            </li>
+
+        </ul>
+    </section>
+    <footer>
+        <div id="copyright">
+            <p>© 2021 · Todos los Derechos Reservados.</p>
+
+        </div>
+        <div id="redes">
+            <p>Siguenos en Nuestras Redes</p>
+            <ul>
+                <li><a href="#"><img src="img/facebook.png" alt=facebook width="30px"></a></li>
+                <li><a href="#"><img src="img/twitter.png" alt=twitter width="30px"></a></li>
+                <li><a href="#"><img src="img/instagram.png" alt=instagram width="30px"></a></li>
+
+            </ul>
+        </div>
+    </footer>
+
+    
+
+</body>
+
+</html>
